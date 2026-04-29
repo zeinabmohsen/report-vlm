@@ -87,7 +87,7 @@ export default function Sidebar({
             {/* Front health dot: green when ok, red on error, gray while loading */}
             <div className={`health-dot ${health === 'ok' ? 'ok' : health === 'error' ? 'error' : ''}`} style={{ width: 10, height: 10, borderRadius: 6 }} />
           </div>
-          <span className="logo-text">POS Intelligence</span>
+          <span className="logo-text"> Intelligence</span>
         </div>
         <button className="new-chat-btn" onClick={onNewChat}>
           <span>✦</span> New conversation

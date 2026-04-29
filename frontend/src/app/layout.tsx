@@ -15,7 +15,7 @@ const dmMono = DM_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'POS Intelligence — Qwen AI Chat',
+  title: ' Intelligence — Qwen AI Chat',
   description: 'Business data analysis powered by Qwen2.5-VL',
 };
 
