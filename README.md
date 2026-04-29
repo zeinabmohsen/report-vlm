@@ -1,4 +1,4 @@
-# POS Intelligence — Qwen AI Chat
+#  Qwen AI Chat
 
 > A  business intelligence chat interface powered by **Qwen3-VL-32B** running on AWS.  
 > Upload Excel / CSV files and get instant AI analysis, insights, and interactive HTML dashboards.
