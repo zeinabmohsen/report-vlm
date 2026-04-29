@@ -5,43 +5,6 @@
 
 ---
 
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Frontend | Next.js 14 · React 18 · TypeScript |
-| Backend | Node.js 24 · Express 5 · ES Modules |
-| AI Model | Qwen/Qwen3-VL-32B-Instruct (vLLM on AWS) |
-| File Parsing | ExcelJS |
-| Security | Helmet · CORS |
-
----
-
-## Project Structure
-
-```
-pos-chat/
-├── backend/
-│   └── src/
-│       ├── config/          # Environment config
-│       ├── constants/       # AI prompts
-│       ├── controllers/     # Route handlers
-│       ├── errors/          # AppError class
-│       ├── middleware/      # Logger · Error handler
-│       ├── routes/          # Express routers
-│       ├── services/        # Qwen API · File service
-│       ├── utils/           # Excel parser
-│       └── index.js         # Entry point
-└── frontend/
-    └── src/
-        ├── app/             # Next.js pages + global CSS
-        ├── components/      # UI components
-        ├── hooks/           # useChat · useTheme
-        ├── lib/             # API client
-        └── types/           # TypeScript interfaces
-```
-
----
 
 ## Getting Started
 
