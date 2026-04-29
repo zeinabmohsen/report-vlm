@@ -3,6 +3,7 @@
 import { useRef, useState, useEffect, DragEvent } from 'react';
 import { uploadFile, deleteFile, checkHealth } from '@/lib/api';
 import type { UploadedFile } from '@/types';
+import ThemeToggle from './ThemeToggle';
 
 interface SidebarProps {
   systemPrompt: string;
@@ -84,10 +85,10 @@ export default function Sidebar({
         <div className="logo">
           <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
             <div className="logo-mark">⬡</div>
-            {/* Front health dot: green when ok, red on error, gray while loading */}
             <div className={`health-dot ${health === 'ok' ? 'ok' : health === 'error' ? 'error' : ''}`} style={{ width: 10, height: 10, borderRadius: 6 }} />
           </div>
           <span className="logo-text"> Intelligence</span>
+          <ThemeToggle />
         </div>
         <button className="new-chat-btn" onClick={onNewChat}>
           <span>✦</span> New conversation

@@ -70,7 +70,7 @@ export default function HomePage() {
         {isEmpty ? (
           <div className="empty-state">
             <div className="empty-icon">⬡</div>
-            <div className="empty-title">POS Intelligence</div>
+            <div className="empty-title"> Intelligence</div>
             <div className="empty-sub">
               Upload an Excel or CSV file in the sidebar, then ask questions or generate a full interactive report.
             </div>
