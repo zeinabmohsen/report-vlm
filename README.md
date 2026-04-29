@@ -1,6 +1,6 @@
 # POS Intelligence — Qwen AI Chat
 
-> A Claude-style business intelligence chat interface powered by **Qwen3-VL-32B** running on AWS.  
+> A  business intelligence chat interface powered by **Qwen3-VL-32B** running on AWS.  
 > Upload Excel / CSV files and get instant AI analysis, insights, and interactive HTML dashboards.
 
 ---
@@ -11,7 +11,7 @@
 ### Prerequisites
 
 - Node.js 24+
-- Qwen vLLM server running (default: `http://13.50.155.234:5001`)
+- Qwen vLLM server running 
 
 ---
 
@@ -22,17 +22,6 @@ cd backend
 npm install
 npm run dev
 # Listening on http://localhost:4000
-```
-
-Configure `backend/.env`:
-
-```env
-QWEN_BASE_URL=http://13.50.155.234:5001/v1
-QWEN_MODEL=Qwen/Qwen3-VL-32B-Instruct
-QWEN_API_KEY=not-required
-PORT=4000
-FRONTEND_URL=http://localhost:3000
-MAX_FILE_SIZE_MB=10
 ```
 
 ---
